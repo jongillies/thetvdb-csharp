@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Actors>
+<Actor>
+  <id>23004</id>
+  <Image>actors/23004.jpg</Image>
+  <Name>Seth MacFarlane</Name>
+  <Role>Stan Smith|Roger Smith</Role>
+  <SortOrder>0</SortOrder>
+</Actor>
+<Actor>
+  <id>23006</id>
+  <Image>actors/23006.jpg</Image>
+  <Name>Wendy Schaal</Name>
+  <Role>Francine Smith</Role>
+  <SortOrder>1</SortOrder>
+</Actor>
+<Actor>
+  <id>23002</id>
+  <Image>actors/23002.jpg</Image>
+  <Name>Scott Grimes</Name>
+  <Role>Steve Smith</Role>
+  <SortOrder>2</SortOrder>
+</Actor>
+<Actor>
+  <id>23005</id>
+  <Image></Image>
+  <Name>Dee Bradley Baker</Name>
+  <Role>Klaus</Role>
+  <SortOrder>3</SortOrder>
+</Actor>
+<Actor>
+  <id>23003</id>
+  <Image></Image>
+  <Name>Rachael MacFarlane</Name>
+  <Role>Hayley Smith</Role>
+  <SortOrder>3</SortOrder>
+</Actor>
+</Actors>

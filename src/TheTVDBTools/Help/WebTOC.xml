@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="b0b01edd-ee7e-45c7-86f9-b1586a43d55c" Title="TheTVDBTools Namespace" Url="html/c4b8ee18-4736-0c7e-5409-d908b3fc5555.htm">
+    <HelpTOCNode Id="33c4ee14-a960-4491-a311-22e8a27c782a" Title="TVSearcher Class" Url="html/2f5ca212-ac89-c8a0-35a5-79b04b6d40cd.htm">
+      <HelpTOCNode Title="TVSearcher Constructor (apiKey)" Url="html/fd935793-59d4-6854-0c53-75e95fbb717c.htm" />
+      <HelpTOCNode Title="GetSeries Method (showName)" Url="html/ae29539c-9d9a-3237-b7ce-2d39ae569ba0.htm" />
+      <HelpTOCNode Title="GetSeriesByID Method (id)" Url="html/7e38c7ae-9486-1b4f-52da-97f76c1c8f99.htm" />
+      <HelpTOCNode Title="GetShow Method (showID)" Url="html/71d7f1e9-8ea1-5bcb-b554-a8675760fd2e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7a3451bd-8d59-41d7-a65f-bb13dcfb2108" Title="TVSeries Class" Url="html/e9e86488-6db6-fa7d-f1a9-d10b4a9c3549.htm">
+      <HelpTOCNode Title="TVSeries Constructor " Url="html/4509383c-9726-6453-394d-098005e2fddc.htm" />
+      <HelpTOCNode Title="CleanName Method (theName)" Url="html/6a54a6bf-efa5-23ed-ce2b-9c7ab9aee8ee.htm" />
+      <HelpTOCNode Title="Episodes Property " Url="html/4ca87941-ee56-7591-488d-f038c36b2ebc.htm" />
+      <HelpTOCNode Title="GetEpisode Method (theSeason, theEpisode)" Url="html/d39623b8-792f-fb1a-7985-01c5e471cee9.htm" />
+      <HelpTOCNode Title="HasEpisodes Method " Url="html/4ef56542-11d4-cfa8-601e-b7c5b5eee187.htm" />
+      <HelpTOCNode Title="IsSearchResult Method " Url="html/8dae328c-357f-4f4a-4475-2249b23e6727.htm" />
+      <HelpTOCNode Title="LoadFromFile Method (fileName)" Url="html/79dcbcad-3e10-516f-575d-18a9ae73a664.htm" />
+      <HelpTOCNode Title="LoadFromURL Method (URLString)" Url="html/713c60de-2e3d-ff35-a8ff-b668ef753a92.htm" />
+      <HelpTOCNode Title="nameMask99x99 Property " Url="html/b52819bf-0304-9ce1-dc3f-7d47529d0756.htm" />
+      <HelpTOCNode Title="nameMaskS99E99 Property " Url="html/fbc6ee11-f6cb-65c1-a9ec-88a570aeb092.htm" />
+      <HelpTOCNode Title="Seasons Property " Url="html/50efd20d-d483-1426-a384-9f28b6374596.htm" />
+      <HelpTOCNode Title="SEFileName Method (theSeason, theEpisode, extension)" Url="html/b5397086-a154-74ed-4406-63a3f8b1b3e3.htm" />
+      <HelpTOCNode Title="Series Property " Url="html/70cc5805-029c-f65a-4a6f-a473a6315831.htm" />
+      <HelpTOCNode Title="Shows Property " Url="html/d3ddb174-849e-a82d-d51f-94fbf3093815.htm" />
+      <HelpTOCNode Title="SMFileName Method (theSeason, theEpisode, extension)" Url="html/c2896e83-904d-8c7c-cab0-e092d418e1d8.htm" />
+      <HelpTOCNode Title="XFileName Method (theSeason, theEpisode, extension)" Url="html/41f56fe3-39d5-024a-8d20-d160729c9c8d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8c02054a-848c-4194-a3c1-8618c178fe03" Title="TVShowFolder Class" Url="html/da9e876a-40d7-a1aa-1557-7cbae3ed00f4.htm">
+      <HelpTOCNode Title="TVShowFolder Constructor (thePath)" Url="html/099cd175-7db0-90d7-3c64-9a3c90f86bd3.htm" />
+      <HelpTOCNode Title="AssignedID Property " Url="html/f3cc744b-7468-417f-c7f5-907d8be01c62.htm" />
+      <HelpTOCNode Title="ErrorMessage Property " Url="html/03a27ca6-b278-5686-0b12-12e64ffd5ade.htm" />
+      <HelpTOCNode Title="HasAssignedID Property " Url="html/4d8d5cb5-e64f-7105-10d8-d22fe2a38b9d.htm" />
+      <HelpTOCNode Title="IsValid Property " Url="html/6d4fb0b0-0e1f-9fae-9374-52e220d397a2.htm" />
+      <HelpTOCNode Title="Location Property " Url="html/18a152a1-ffaf-9bb7-59ab-fbf7adccb13c.htm" />
+      <HelpTOCNode Title="Parse Method (thePath)" Url="html/fb385cfd-e05b-d586-0b4a-d190ab15e6a0.htm" />
+      <HelpTOCNode Title="ShowName Property " Url="html/0c2a3266-9319-048f-8076-faa77b5b3027.htm" />
+      <HelpTOCNode Title="Year Property " Url="html/e96f7bb0-ccc7-ceea-214d-84f59a431cbd.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bfb3433a-7fb1-4bc6-b840-e1770f89cd03" Title="TVShowNameParser Class" Url="html/81105be9-ca0f-f9c9-a8d3-ca31b96c077d.htm">
+      <HelpTOCNode Title="TVShowNameParser Constructor (fileName)" Url="html/044f6110-8a58-5095-da47-6f492732749a.htm" />
+      <HelpTOCNode Title="AmbigiousNaming Property " Url="html/ec245d44-90a2-fe43-4921-f3f6e7f86e30.htm" />
+      <HelpTOCNode Title="Episode Property " Url="html/cf7bd9af-d5e4-be7e-c574-5ad3e219f282.htm" />
+      <HelpTOCNode Title="Matched Method " Url="html/b029449d-20b6-f9e5-2fe4-3ab5771c2703.htm" />
+      <HelpTOCNode Title="Season Property " Url="html/2062f4b0-c90a-cc85-3245-849974dad279.htm" />
+      <HelpTOCNode Title="wasSENaming Property " Url="html/fe6b9fe1-bea1-8850-87d8-9ba6e855a75d.htm" />
+      <HelpTOCNode Title="wasSMNaming Property " Url="html/bc84f7be-d5e9-f5a3-7fb4-b88b62db4ecf.htm" />
+      <HelpTOCNode Title="wasXNaming Property " Url="html/bcb36b5e-3d39-4200-a69d-b863a7dbef92.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

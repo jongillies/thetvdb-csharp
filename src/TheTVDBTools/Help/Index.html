@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<title>Table of Content</title>
+<link rel="stylesheet" href="TOC.css">
+<script type="text/javascript" src="TOC.js"></script>
+</head>
+
+<body onload="javascript: Initialize();" onresize="javascript: ResizeTree();">
+<form id="IndexForm" runat="server">
+
+<div id="TOCDiv" class="TOCDiv">
+
+<div id="divSearchOpts" class="SearchOpts" style="height: 100px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideSearch(false);"
+    src="CloseSearch.png" height="16" width="16" alt="Hide search" style="float: right;"/>
+Keyword(s) for which to search:
+<input id="txtSearchText" type="text" style="width: 100%;"
+  onkeypress="javascript: return OnSearchTextKeyPress(event);" /><br />
+<input id="chkSortByTitle" type="checkbox" /><label for="chkSortByTitle">&nbsp;Sort results by title</label><br />
+<input type="button" value="Search" onclick="javascript: return PerformSearch();" />
+</div>
+
+<div id="divIndexOpts" class="IndexOpts" style="height: 25px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+    src="CloseSearch.png" height="17" width="17" alt="Hide index" style="float: right;"/>
+Keyword Index
+</div>
+
+<div id="divNavOpts" class="NavOpts" style="height: 20px;">
+    <img class="TOCLink" onclick="javascript: SyncTOC();" src="SyncTOC.gif"
+        height="16" width="16" alt="Sync to TOC"/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(true);"
+        src="ExpandAll.bmp" height="16" width="16" alt="Expand all "/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+        src="CollapseAll.bmp" height="16" width="16" alt="Collapse all" />
+</div>
+
+<div class="Tree" id="divSearchResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divIndexResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divTree" onselectstart="javascript: return false;">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/c4b8ee18-4736-0c7e-5409-d908b3fc5555.htm" target="TopicContent">TheTVDBTools Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/2f5ca212-ac89-c8a0-35a5-79b04b6d40cd.htm" target="TopicContent">TVSearcher Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/fd935793-59d4-6854-0c53-75e95fbb717c.htm" target="TopicContent">TVSearcher Constructor (apiKey)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/ae29539c-9d9a-3237-b7ce-2d39ae569ba0.htm" target="TopicContent">GetSeries Method (showName)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/7e38c7ae-9486-1b4f-52da-97f76c1c8f99.htm" target="TopicContent">GetSeriesByID Method (id)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/71d7f1e9-8ea1-5bcb-b554-a8675760fd2e.htm" target="TopicContent">GetShow Method (showID)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/e9e86488-6db6-fa7d-f1a9-d10b4a9c3549.htm" target="TopicContent">TVSeries Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/4509383c-9726-6453-394d-098005e2fddc.htm" target="TopicContent">TVSeries Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/6a54a6bf-efa5-23ed-ce2b-9c7ab9aee8ee.htm" target="TopicContent">CleanName Method (theName)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/4ca87941-ee56-7591-488d-f038c36b2ebc.htm" target="TopicContent">Episodes Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/d39623b8-792f-fb1a-7985-01c5e471cee9.htm" target="TopicContent">GetEpisode Method (theSeason, theEpisode)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/4ef56542-11d4-cfa8-601e-b7c5b5eee187.htm" target="TopicContent">HasEpisodes Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/8dae328c-357f-4f4a-4475-2249b23e6727.htm" target="TopicContent">IsSearchResult Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/79dcbcad-3e10-516f-575d-18a9ae73a664.htm" target="TopicContent">LoadFromFile Method (fileName)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/713c60de-2e3d-ff35-a8ff-b668ef753a92.htm" target="TopicContent">LoadFromURL Method (URLString)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b52819bf-0304-9ce1-dc3f-7d47529d0756.htm" target="TopicContent">nameMask99x99 Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/fbc6ee11-f6cb-65c1-a9ec-88a570aeb092.htm" target="TopicContent">nameMaskS99E99 Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/50efd20d-d483-1426-a384-9f28b6374596.htm" target="TopicContent">Seasons Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b5397086-a154-74ed-4406-63a3f8b1b3e3.htm" target="TopicContent">SEFileName Method (theSeason, theEpisode, extension)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/70cc5805-029c-f65a-4a6f-a473a6315831.htm" target="TopicContent">Series Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/d3ddb174-849e-a82d-d51f-94fbf3093815.htm" target="TopicContent">Shows Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/c2896e83-904d-8c7c-cab0-e092d418e1d8.htm" target="TopicContent">SMFileName Method (theSeason, theEpisode, extension)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/41f56fe3-39d5-024a-8d20-d160729c9c8d.htm" target="TopicContent">XFileName Method (theSeason, theEpisode, extension)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/da9e876a-40d7-a1aa-1557-7cbae3ed00f4.htm" target="TopicContent">TVShowFolder Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/099cd175-7db0-90d7-3c64-9a3c90f86bd3.htm" target="TopicContent">TVShowFolder Constructor (thePath)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/f3cc744b-7468-417f-c7f5-907d8be01c62.htm" target="TopicContent">AssignedID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/03a27ca6-b278-5686-0b12-12e64ffd5ade.htm" target="TopicContent">ErrorMessage Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/4d8d5cb5-e64f-7105-10d8-d22fe2a38b9d.htm" target="TopicContent">HasAssignedID Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/6d4fb0b0-0e1f-9fae-9374-52e220d397a2.htm" target="TopicContent">IsValid Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/18a152a1-ffaf-9bb7-59ab-fbf7adccb13c.htm" target="TopicContent">Location Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/fb385cfd-e05b-d586-0b4a-d190ab15e6a0.htm" target="TopicContent">Parse Method (thePath)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/0c2a3266-9319-048f-8076-faa77b5b3027.htm" target="TopicContent">ShowName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e96f7bb0-ccc7-ceea-214d-84f59a431cbd.htm" target="TopicContent">Year Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/81105be9-ca0f-f9c9-a8d3-ca31b96c077d.htm" target="TopicContent">TVShowNameParser Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/044f6110-8a58-5095-da47-6f492732749a.htm" target="TopicContent">TVShowNameParser Constructor (fileName)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/ec245d44-90a2-fe43-4921-f3f6e7f86e30.htm" target="TopicContent">AmbigiousNaming Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/cf7bd9af-d5e4-be7e-c574-5ad3e219f282.htm" target="TopicContent">Episode Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b029449d-20b6-f9e5-2fe4-3ab5771c2703.htm" target="TopicContent">Matched Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2062f4b0-c90a-cc85-3245-849974dad279.htm" target="TopicContent">Season Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/fe6b9fe1-bea1-8850-87d8-9ba6e855a75d.htm" target="TopicContent">wasSENaming Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/bc84f7be-d5e9-f5a3-7fb4-b88b62db4ecf.htm" target="TopicContent">wasSMNaming Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/bcb36b5e-3d39-4200-a69d-b863a7dbef92.htm" target="TopicContent">wasXNaming Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+
+<iframe id="TopicContent" name="TopicContent" class="TopicContent" src="html/d4648875-d41a-783b-d5f4-638df39ee413.htm">
+This page uses an IFRAME but your browser does not support it.
+</iframe>
+
+</form>
+
+</body>
+
+</html>

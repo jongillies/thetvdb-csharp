@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Banners>
+<Banner>
+  <id>31510</id>
+  <BannerPath>fanart/original/73141-1.jpg</BannerPath>
+  <BannerType>fanart</BannerType>
+  <BannerType2>1280x720</BannerType2>
+  <Colors></Colors>
+  <Language>en</Language>
+  <ThumbnailPath>_cache/fanart/original/73141-1.jpg</ThumbnailPath>
+  <VignettePath>fanart/vignette/73141-1.jpg</VignettePath>
+</Banner>
+<Banner>
+  <id>25366</id>
+  <BannerPath>posters/73141-1.jpg</BannerPath>
+  <BannerType>poster</BannerType>
+  <BannerType2>680x1000</BannerType2>
+  <Language>en</Language>
+</Banner>
+<Banner>
+  <id>31368</id>
+  <BannerPath>seasons/73141-1.jpg</BannerPath>
+  <BannerType>season</BannerType>
+  <BannerType2>season</BannerType2>
+  <Language>en</Language>
+  <Season>1</Season>
+</Banner>
+<Banner>
+  <id>31370</id>
+  <BannerPath>seasons/73141-3-3.jpg</BannerPath>
+  <BannerType>season</BannerType>
+  <BannerType2>season</BannerType2>
+  <Language>en</Language>
+  <Season>3</Season>
+</Banner>
+<Banner>
+  <id>31369</id>
+  <BannerPath>seasons/73141-2-2.jpg</BannerPath>
+  <BannerType>season</BannerType>
+  <BannerType2>season</BannerType2>
+  <Language>en</Language>
+  <Season>2</Season>
+</Banner>
+<Banner>
+  <id>6472</id>
+  <BannerPath>seasons/21935-1.jpg</BannerPath>
+  <BannerType>season</BannerType>
+  <BannerType2>season</BannerType2>
+  <Language>en</Language>
+  <Season>1</Season>
+</Banner>
+<Banner>
+  <id>6473</id>
+  <BannerPath>seasons/21935-2.jpg</BannerPath>
+  <BannerType>season</BannerType>
+  <BannerType2>season</BannerType2>
+  <Language>en</Language>
+  <Season>2</Season>
+</Banner>
+<Banner>
+  <id>20771</id>
+  <BannerPath>seasons/73141-3.jpg</BannerPath>
+  <BannerType>season</BannerType>
+  <BannerType2>season</BannerType2>
+  <Language>en</Language>
+  <Season>3</Season>
+</Banner>
+<Banner>
+  <id>9343</id>
+  <BannerPath>seasons/21935-3.jpg</BannerPath>
+  <BannerType>season</BannerType>
+  <BannerType2>season</BannerType2>
+  <Language>en</Language>
+  <Season>3</Season>
+</Banner>
+<Banner>
+  <id>20769</id>
+  <BannerPath>seasons/73141-2.jpg</BannerPath>
+  <BannerType>season</BannerType>
+  <BannerType2>season</BannerType2>
+  <Language>en</Language>
+  <Season>2</Season>
+</Banner>
+<Banner>
+  <id>7008</id>
+  <BannerPath>seasons/21935-1-2.jpg</BannerPath>
+  <BannerType>season</BannerType>
+  <BannerType2>season</BannerType2>
+  <Language>en</Language>
+  <Season>1</Season>
+</Banner>
+<Banner>
+  <id>25818</id>
+  <BannerPath>seasons/73141-3-2.jpg</BannerPath>
+  <BannerType>season</BannerType>
+  <BannerType2>season</BannerType2>
+  <Language>de</Language>
+  <Season>3</Season>
+</Banner>
+<Banner>
+  <id>31371</id>
+  <BannerPath>seasons/73141-4.jpg</BannerPath>
+  <BannerType>season</BannerType>
+  <BannerType2>season</BannerType2>
+  <Language>en</Language>
+  <Season>4</Season>
+</Banner>
+<Banner>
+  <id>23815</id>
+  <BannerPath>graphical/73141-g2.jpg</BannerPath>
+  <BannerType>series</BannerType>
+  <BannerType2>graphical</BannerType2>
+  <Language>en</Language>
+</Banner>
+<Banner>
+  <id>9380</id>
+  <BannerPath>graphical/21935-g3.jpg</BannerPath>
+  <BannerType>series</BannerType>
+  <BannerType2>graphical</BannerType2>
+  <Language>en</Language>
+</Banner>
+<Banner>
+  <id>5412</id>
+  <BannerPath>graphical/21935-g.jpg</BannerPath>
+  <BannerType>series</BannerType>
+  <BannerType2>graphical</BannerType2>
+  <Language>en</Language>
+</Banner>
+<Banner>
+  <id>16432</id>
+  <BannerPath>graphical/73141-g.jpg</BannerPath>
+  <BannerType>series</BannerType>
+  <BannerType2>graphical</BannerType2>
+  <Language>en</Language>
+</Banner>
+<Banner>
+  <id>23816</id>
+  <BannerPath>graphical/73141-g3.jpg</BannerPath>
+  <BannerType>series</BannerType>
+  <BannerType2>graphical</BannerType2>
+  <Language>en</Language>
+</Banner>
+<Banner>
+  <id>5477</id>
+  <BannerPath>text/21935.jpg</BannerPath>
+  <BannerType>series</BannerType>
+  <BannerType2>text</BannerType2>
+  <Language>en</Language>
+</Banner>
+<Banner>
+  <id>12829</id>
+  <BannerPath>blank/73141.jpg</BannerPath>
+  <BannerType>series</BannerType>
+  <BannerType2>blank</BannerType2>
+  <Language>en</Language>
+</Banner>
+</Banners>

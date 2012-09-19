@@ -1,0 +1,568 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TheTVDBTools</name>
+    </assembly>
+    <members>
+        <member name="T:TheTVDBTools.TVShowFolder">
+            <summary>
+            Given a folder path that contains TV show videos, this class will parse that name and return usefull information.
+            
+            If the folder contains "c:\myshows\My Show (1993)", then object.Year will contain the year and
+            object.Name will contain "My Show" and object.Location will contain "c:\myshows\My Show (1993)".
+            
+            The folder input to the constructor is always dereferenced to the absolute path.
+            
+            The code will also search for a ".thetvdb.xml" file which would contain the show id from TheTVDB.com.
+            This is used in case the folder name is not unique along with the year to force a match.
+            </summary>
+        </member>
+        <member name="M:TheTVDBTools.TVShowFolder.HasError">
+            <summary>
+            Return true if a processing error has occured.
+            </summary>
+            <returns>True if an error occurred</returns>
+        </member>
+        <member name="M:TheTVDBTools.TVShowFolder.#ctor(System.String)">
+            <summary>
+            Constructor: Initalize values and parse the path
+            </summary>
+            <param name="thePath">Folder path</param>
+        </member>
+        <member name="M:TheTVDBTools.TVShowFolder.Parse(System.String)">
+            <summary>
+            Parse the folder path.
+            The path is alwasy de-referenced to an absolute path. 
+            </summary>
+            <param name="thePath">TV Show Folder Path</param>
+        </member>
+        <member name="P:TheTVDBTools.TVShowFolder.Year">
+            <summary>
+            Return the show year if specified in the folder name
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVShowFolder.AssignedID">
+            <summary>
+            Return the assigned id located inside the .thetvdb.xml file
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVShowFolder.HasAssignedID">
+            <summary>
+            Does the show have and assinged id?  (e.g. does a .thetvdb.xml exist and is it valid)
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVShowFolder.Location">
+            <summary>
+            Return the parent folder location of the show
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVShowFolder.IsValid">
+            <summary>
+            Is this a valid show folder?
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVShowFolder.ErrorMessage">
+            <summary>
+            Return an error message if one occurs.
+            It might not be a valid path or a file or exist.
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVShowFolder.ShowName">
+            <summary>
+            Return the show name
+            </summary>
+        </member>
+        <member name="T:TheTVDBTools.TVSearcherCache">
+            <summary>
+            Search a cache file or goto web
+            </summary>
+        </member>
+        <member name="T:TheTVDBTools.TVSearcher">
+            <summary>
+            Search TheTVDB.Com for TV Show information
+            </summary>
+        </member>
+        <member name="M:TheTVDBTools.TVSearcher.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="apiKey">Specify and API Key</param>
+        </member>
+        <member name="M:TheTVDBTools.TVSearcher.GetMirrorURL">
+            <summary>
+            Get the list of mirrors for data and choose one.
+            Currently here is only 1 mirror.
+            </summary>
+            <returns>Returns the mirror URL</returns>
+        </member>
+        <member name="M:TheTVDBTools.TVSearcher.GetSeriesByID(System.String)">
+            <summary>
+            Given a show ID, get the show information
+            </summary>
+            <param name="id">The series ID</param>
+            <returns>TVSerise</returns>
+        </member>
+        <member name="M:TheTVDBTools.TVSearcher.GetSeries(System.String)">
+            <summary>
+            Try to match a series by showName
+            If you get more than one match by show name, try to match by the year in the show name, if present
+            </summary>
+            <param name="showName">The show name to search</param>
+            <returns></returns>
+        </member>
+        <member name="M:TheTVDBTools.TVSearcher.GetShow(System.String)">
+            <summary>
+            Get a specific how given a show ID (i.e. Episode)
+            </summary>
+            <param name="showID">The Episode Number</param>
+            <returns>TVSeries</returns>
+        </member>
+        <member name="P:TheTVDBTools.TVSearcher.InternetAccess">
+            <summary>
+            Turn off and on internet access for testing cache files
+            </summary>
+        </member>
+        <member name="M:TheTVDBTools.TVSearcherCache.#ctor(System.String)">
+            <summary>
+            This is 
+            </summary>
+            <param name="apiKey">xxx</param>
+        </member>
+        <member name="M:TheTVDBTools.TVSearcherCache.GetSeries(System.String,System.String)">
+            <summary>
+            </summary>
+            <param name="theShowName"></param>
+            <param name="theFolder"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TheTVDBTools.TVTool">
+            <summary>
+            Given a folder, the objective is for TVTool to return the ID of the show.
+            This may mean gathering the .thedvd.id file or doing a search on the site.
+            </summary>
+        </member>
+        <member name="M:TheTVDBTools.TVTool.#ctor(System.String,System.String)">
+            <summary>
+            </summary>
+            <param name="APIKey"></param>
+            <param name="path"></param>
+        </member>
+        <member name="M:TheTVDBTools.TVTool.GetShowData(System.Int32)">
+            <summary>
+            </summary>
+            <param name="showID"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TheTVDBTools.TVTool.HasError">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVTool.HasID">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVTool.ID">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVTool.ErrorMessage">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Data">
+            <remarks/>
+        </member>
+        <member name="P:Data.Items">
+            <remarks/>
+        </member>
+        <member name="T:DataEpisode">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.id">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.Combined_episodenumber">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.Combined_season">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.DVD_chapter">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.DVD_discid">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.DVD_episodenumber">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.DVD_season">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.Director">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.EpImgFlag">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.EpisodeName">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.EpisodeNumber">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.FirstAired">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.GuestStars">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.IMDB_ID">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.Language">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.Overview">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.ProductionCode">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.Rating">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.SeasonNumber">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.Writer">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.absolute_number">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.airsafter_season">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.airsbefore_episode">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.airsbefore_season">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.filename">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.lastupdated">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.seasonid">
+            <remarks/>
+        </member>
+        <member name="P:DataEpisode.seriesid">
+            <remarks/>
+        </member>
+        <member name="T:DataSeries">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.id">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.Actors">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.Airs_DayOfWeek">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.Airs_Time">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.ContentRating">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.FirstAired">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.Genre">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.IMDB_ID">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.Language">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.Network">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.Overview">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.Rating">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.Runtime">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.SeriesID">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.SeriesName">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.Status">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.added">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.addedBy">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.banner">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.fanart">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.lastupdated">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.poster">
+            <remarks/>
+        </member>
+        <member name="P:DataSeries.zap2it_id">
+            <remarks/>
+        </member>
+        <member name="T:TheTVDBTools.TVShowNameParser">
+            <summary>
+            Given a file name that contains some epsiode and season numbering scheme, this class will parse thoes numbers
+            and return values for thoes numbers.
+            
+            </summary>
+        </member>
+        <member name="M:TheTVDBTools.TVShowNameParser.SetInitOptions">
+            <summary>
+            Set Initialization options.  This should be called by all constructors.
+            </summary>
+        </member>
+        <member name="M:TheTVDBTools.TVShowNameParser.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="fileName">File name of the file.  Should NOT include a path.</param>
+        </member>
+        <member name="M:TheTVDBTools.TVShowNameParser.Matched">
+            <summary>
+            Did we get a valid season and episode?
+            </summary>
+            <returns>Returns TRUE if we have a valid season and episode</returns>
+        </member>
+        <member name="M:TheTVDBTools.TVShowNameParser.Parse(System.String)">
+            <summary>
+            Parse the fileName into it's components.
+            </summary>
+            <param name="fileName">File name of the file.  Should NOT include a path.</param>
+        </member>
+        <member name="P:TheTVDBTools.TVShowNameParser.wasSENaming">
+            <summary>
+            Was the show S99E99 named?
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVShowNameParser.wasSMNaming">
+            <summary>
+            Was the show S99M99 named?
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVShowNameParser.wasXNaming">
+            <summary>
+            Was the show 99X99 named?
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVShowNameParser.Season">
+            <summary>
+            Return the season number
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVShowNameParser.Episode">
+            <summary>
+            Return the episode number
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVShowNameParser.AmbigiousNaming">
+            <summary>
+            Was the named ambiguously? (Contaied x01 and 1x02 in name?)
+            </summary>
+        </member>
+        <member name="T:TheTVDBTools.TVFiles">
+            <summary>
+            Given a folder, gather a list of files in that folder.  These are TV Show files.
+            Store this in a dictionary.  This allows you to check if a show is in the folder via the dictionary.
+            </summary>
+        </member>
+        <member name="M:TheTVDBTools.TVFiles.Name(System.Int32,System.Int32)">
+            <summary>
+            Return a string based on the input parameters, this is used as the key to the dictionary
+            </summary>
+            <param name="theSeason">The Season Number</param>
+            <param name="theEpisode">The Episode Number</param>
+            <returns></returns>
+        </member>
+        <member name="M:TheTVDBTools.TVFiles.Exist(System.Int32,System.Int32)">
+            <summary>
+            Does this show exist in the list?
+            </summary>
+            <param name="theSeason">The Season Number</param>
+            <param name="theEpisode">The Episode Number</param>
+            <returns></returns>
+        </member>
+        <member name="M:TheTVDBTools.TVFiles.#ctor(System.String)">
+            <summary>
+            TVFiles constructor.  Given the show folder, load the shows into the dictionary
+            </summary>
+            <param name="path">The TV Show folder</param>
+        </member>
+        <member name="T:TheTVDBTools.TVSeries">
+             <summary>
+             This class will load a "TheTVDB" based XLM information.
+            
+             Normally this information will be located in TheTVDB here (given the series ID):
+            
+                 http://www.thetvdb.com/api/apikey/series/73141/all/en.xml
+            
+             or for a search:
+            
+                "http://thetvdb.com/api/GetSeries.php?seriesname=american"
+            
+             It can also parse results from an XML file.
+            
+             </summary>
+        </member>
+        <member name="M:TheTVDBTools.TVSeries.IsSearchResult">
+            <summary>
+            Return TRUE if this is a search result list
+            </summary>
+            <returns>True if the Show Count in the XML is > 1 or the Show count == 1 and the Episode count = 0</returns>
+        </member>
+        <member name="M:TheTVDBTools.TVSeries.HasEpisodes">
+            <summary>
+            Return TRUE if this is a Show result (contains 1 show and 0 or more episodes)
+            </summary>
+            <returns>True if there is more than 0 epsiodes</returns>
+        </member>
+        <member name="M:TheTVDBTools.TVSeries.LoadFromFile(System.String)">
+            <summary>
+            Load from an XML file
+            </summary>
+            <param name="fileName">path to the file</param>
+        </member>
+        <member name="M:TheTVDBTools.TVSeries.LoadFromURL(System.String)">
+            <summary>
+            Load from a URL string
+            </summary>
+            <param name="URLString">URL Path</param>
+        </member>
+        <member name="M:TheTVDBTools.TVSeries.CountSeasons">
+            <summary>
+            Count the number of seaons in the episode list
+            </summary>
+        </member>
+        <member name="M:TheTVDBTools.TVSeries.ReplaceMacros(System.String,System.Int32,System.Int32)">
+            <summary>
+            Naming Macro Replacment
+            </summary>
+            <param name="theNameMask">Pass in a naming file mask</param>
+            <param name="theSeason">The Season Number</param>
+            <param name="theEpisode">The Episode Number</param>
+            <returns></returns>
+        </member>
+        <member name="M:TheTVDBTools.TVSeries.SEFileName(System.Int32,System.Int32,System.String)">
+            <summary>
+            Return a SxxExx filename
+            </summary>
+            <param name="theSeason">The Season Number</param>
+            <param name="theEpisode">The Episode Number</param>
+            <param name="extension">The file extension</param>
+            <returns></returns>
+        </member>
+        <member name="M:TheTVDBTools.TVSeries.SMFileName(System.Int32,System.Int32,System.String)">
+            <summary>
+            Return a SxxMxx filename
+            </summary>
+            <param name="theSeason">The Season Number</param>
+            <param name="theEpisode">The Episode Number</param>
+            <param name="extension">The file extension</param>
+            <returns></returns>
+        </member>
+        <member name="M:TheTVDBTools.TVSeries.XFileName(System.Int32,System.Int32,System.String)">
+            <summary>
+            Return a 99x99 filename
+            </summary>
+            <param name="theSeason">The Season Number</param>
+            <param name="theEpisode">The Episode Number</param>
+            <param name="extension">The file extension</param>
+            <returns></returns>
+        </member>
+        <member name="M:TheTVDBTools.TVSeries.GetEpisode(System.Int32,System.Int32)">
+            <summary>
+            Return the DataEpisode for the given season nad episode number
+            </summary>
+            <param name="theSeason">The Season Number</param>
+            <param name="theEpisode">The Episode Number</param>
+            <returns></returns>
+        </member>
+        <member name="M:TheTVDBTools.TVSeries.Parse">
+            <summary>
+            Parse the XML and load into the class variables
+            </summary>
+        </member>
+        <member name="M:TheTVDBTools.TVSeries.CleanName(System.String)">
+            <summary>
+            Clean a name string for use as a file name
+            </summary>
+            <param name="theName">The Input Name</param>
+            <returns>Returns a clean name for the file system</returns>
+        </member>
+        <member name="M:TheTVDBTools.TVSeries.WriteCache(System.String)">
+            <summary>
+             Write the raw _xmlData to the specified file
+            </summary>
+            <param name="theFile">File path to write data</param>
+        </member>
+        <member name="P:TheTVDBTools.TVSeries.XMLData">
+            <summary>
+            Return the raw XML Data
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVSeries.nameMaskS99E99">
+            <summary>
+            get/set the S99E99 naming mask
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVSeries.nameMask99x99">
+            <summary>
+            get/set the 99x99 naming mask
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVSeries.Series">
+            <summary>
+            Return the Series Information for this show
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVSeries.Episodes">
+            <summary>
+            Return the list of Episodes
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVSeries.Seasons">
+            <summary>
+            Return the number of seasons
+            </summary>
+        </member>
+        <member name="P:TheTVDBTools.TVSeries.Shows">
+            <summary>
+            Return the list of Shows (Must be a search result)
+            </summary>
+        </member>
+    </members>
+</doc>
