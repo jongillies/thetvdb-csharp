@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder GUI" version="1.7.0.0" projectFile="C:\repos\svn\src\TheTVDB\src\TheTVDBTools\TheTVDBTools.shfb" started="10/21/2008 1:32:03 PM">
+<buildStep step="Initializing">
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+</buildStep>
+<buildStep step="FindingTools">
+Finding tools...
+Found Sandcastle in 'C:\Program Files\Sandcastle\'
+Found HTML 1.x help compiler in 'C:\Program Files\HTML Help Workshop\'
+</buildStep>
+<buildStep step="ValidatingAssemblies">
+Validating and copying documentation assembly information...
+    C:\repos\svn\src\TheTVDB\src\TheTVDBTools\bin\Debug\TheTVDBTools.dll -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\TheTVDBTools.dll
+    C:\repos\svn\src\TheTVDB\src\TheTVDBTools\bin\Debug\TheTVDBTools.XML -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\TheTVDBTools.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0156
+</buildStep>
+<buildStep step="CopyDependencies">
+Copying documentation assembly dependencies...
+No dependencies to copy
+    Last step completed in 00:00:00.0156
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0156
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\GenerateRefInfo.bat]
+MrefBuilder (v2.4.10520.1)
+Copyright c Microsoft 2006
+Info: Loaded 1 assemblies for reflection and 0 dependency assemblies.
+Info: Wrote information on 1 namespaces, 4 types, and 37 members
+        1 file(s) copied.
+XslTransform (v2.4.10520.1)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\MergeDuplicates.xsl'.
+    Last step completed in 00:00:01.6719
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="ApplyVisibilityProperties">
+Applying visibility properties to reflection information file
+    0 attribute nodes removed
+    0 explicit interface implementations removed
+    0 local and base class EII elements removed
+    Last step completed in 00:00:00.0156
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\TransformManifest.bat]
+XslTransform (v2.4.10520.1)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\ApplyPrototypeDocModel.xsl'.
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl'.
+XslTransform (v2.4.10520.1)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl'.
+    Last step completed in 00:00:01.6406
+</buildStep>
+<buildStep step="ModifyHelpTopicFilenames">
+Modifying help topic filenames in reflection information file
+    No changes required
+    Last step completed in 00:00:00.0313
+</buildStep>
+<buildStep step="CopyStandardContent">
+Copying standard help content...
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\alert_caution.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\alert_caution.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\alert_note.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\alert_note.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\alert_security.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\alert_security.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\Caution.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\Caution.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\CFW.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\CFW.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\collapse_all.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\collapse_all.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\copycode.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\copycode.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\expand_all.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\expand_all.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\LastChild.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\LastChild.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\NotLastChild.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\NotLastChild.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privclass.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privclass.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privdelegate.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privdelegate.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privenum.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privenum.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privevent.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privevent.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privfield.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privfield.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privinterface.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privinterface.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privmethod.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privmethod.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privproperty.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privproperty.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privstructure.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privstructure.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protclass.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protclass.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protdelegate.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protdelegate.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protenum.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protenum.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protevent.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protevent.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protfield.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protfield.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protfield.png -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protfield.png
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protinterface.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protinterface.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protmethod.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protmethod.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protoperator.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protoperator.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protproperty.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protproperty.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protstructure.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protstructure.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubclass.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubclass.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubdelegate.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubdelegate.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubenum.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubenum.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubevent.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubevent.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubfield.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubfield.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubinterface.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubinterface.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubmethod.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubmethod.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\puboperator.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\puboperator.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubproperty.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubproperty.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubstructure.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubstructure.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\security.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\security.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\static.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\static.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\CollapsibleSection.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\CollapsibleSection.js
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\CookieDataStore.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\CookieDataStore.js
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\ElementCollection.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\ElementCollection.js
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\EventUtilities.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\EventUtilities.js
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\LanguageFilter.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\LanguageFilter.js
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\MemberFilter.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\MemberFilter.js
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\script_prototype.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\script_prototype.js
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\SplitScreen.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\SplitScreen.js
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\StyleUtilities.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\StyleUtilities.js
+C:\Program Files\Sandcastle\Presentation\Prototype\styles\presentation.css -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\styles\presentation.css
+    Last step completed in 00:00:00.3594
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0156
+</buildStep>
+<buildStep step="MergeTablesOfContent">
+Merging conceptual and additional tables of content...
+    Last step completed in 00:00:00.0156
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    conceptual.config
+    Last step completed in 00:00:00.0313
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\sandcastle.config
+    No additional help attributes defined.  The 'HTML Help 2 Attributes' component was not added.
+    Last step completed in 00:00:00.0313
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\BuildReferenceTopics.bat]
+BuildAssembler (v2.4.10520.1)
+Copyright c Microsoft 2006
+Info: CopyFromFileComponent: Instantiating component.
+Info: CopyFromFileComponent: Loading data file 'C:\Program Files\Sandcastle\Presentation\Prototype\transforms\skeleton.xml'.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Searching for files that match '*.xml'.
+Info: CopyFromIndexComponent: Searching for files that match 'reflection.xml'.
+Info: CopyFromIndexComponent: Indexed 170134 elements in 107 files.
+Info: CopyFromIndexComponent: Loaded 0 copy components.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Loaded 0 copy components.
+Info: ForEachComponent: Instantiating component.
+Info: ForEachComponent: Loading subcomponents.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Loaded 0 copy components.
+Info: ForEachComponent: Loaded 1 subcomponents.
+Info: IfThenComponent: Instantiating component.
+Info: SyntaxComponent: Instantiating component.
+Info: SyntaxComponent: Loaded 3 syntax generators.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Searching for files that match 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\en\*.xml'.
+Info: CopyFromIndexComponent: Searching for files that match 'C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\TheTVDBTools.XML'.
+Info: CopyFromIndexComponent: Indexed 80591 elements in 50 files.
+Info: CopyFromIndexComponent: Loaded 0 copy components.
+Info: ForEachComponent: Instantiating component.
+Info: ForEachComponent: Loading subcomponents.
+Info: IfThenComponent: Instantiating component.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Loaded 0 copy components.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Loaded 0 copy components.
+Info: ForEachComponent: Loaded 2 subcomponents.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Loaded 0 copy components.
+Info: ShowMissingComponent: Instantiating component.
+Info: ShowMissingComponent: 
+    [Sandcastle Help File Builder Components, version 1.7.0.0]
+    Show Missing Documentation Component. Copyright c 2006-2008, Eric Woodruff, All Rights Reserved
+    http://www.codeplex.com/SHFB
+Info: VersionInfoComponent: Instantiating component.
+Info: VersionInfoComponent: 
+    [Sandcastle Help File Builder Components, version 1.7.0.0]
+    Version Information Component. Copyright c 2006-2008, Eric Woodruff, All Rights Reserved
+    http://www.codeplex.com/SHFB
+Info: CodeBlockComponent: Instantiating component.
+Info: CodeBlockComponent: 
+    [Sandcastle Help File Builder Components, version 1.7.0.0]
+    Code Block Component. Copyright c 2006-2008, Eric Woodruff, All Rights Reserved.
+    Portions copyright (c) 2003, Jonathan de Halleux, All rights reserved.
+    http://www.codeplex.com/SHFB
+Info: TransformComponent: Instantiating component.
+Info: PostTransformComponent: Instantiating component.
+Info: PostTransformComponent: 
+    [Sandcastle Help File Builder Components, version 1.7.0.0]
+    Post-Transform Component. Copyright c 2006-2008, Eric Woodruff, All Rights Reserved
+    http://www.codeplex.com/SHFB
+Info: SharedContentComponent: Instantiating component.
+Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\Prototype\content\shared_content.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\Prototype\content\shared_content.xml'.
+Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\Prototype\content\shared_content.xml.
+Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\Prototype\content\reference_content.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\Prototype\content\reference_content.xml'.
+Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\Prototype\content\reference_content.xml.
+Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\Shared\content\syntax_content.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\Shared\content\syntax_content.xml'.
+Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\Shared\content\syntax_content.xml.
+Info: SharedContentComponent: Searching for files that match 'SharedBuilderContent.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'rootlink' with value in file 'C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'producttitle' with value in file 'C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'locationinformation' with value in file 'C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'locale' with value in file 'C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'copyright' with value in file 'C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
+Info: SharedContentComponent: Searching for files that match 'PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'header' with value in file 'C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'footer' with value in file 'C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
+Info: SharedContentComponent: Loaded 225 shared content items.
+Info: ResolveReferenceLinksComponent2: Instantiating component.
+Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
+Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Program Files\Sandcastle\Data\Reflection' for targets files of the form '*.xml'.
+Info: ResolveReferenceLinksComponent2: Searching directory 'C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working' for targets files of the form 'reflection.xml'.
+Info: ResolveReferenceLinksComponent2: Loaded 170134 reference targets.
+Info: SaveComponent: Instantiating component.
+Info: BuildAssembler: Building topic R:Project
+Warn: SharedContentComponent: Missing shared content item. Tag:'include'; Id:'topictitle'.
+Warn: SharedContentComponent: Missing shared content item. Tag:'include'; Id:'topictitle'.
+Info: BuildAssembler: Building topic N:TheTVDBTools
+Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:TheTVDBTools
+Info: BuildAssembler: Building topic T:TheTVDBTools.TVSearcher
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVSearcher.#ctor(System.String)
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVSearcher.GetSeries(System.String)
+Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:TheTVDBTools.TVSearcher.GetSeries(System.String)
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVSearcher.GetSeriesByID(System.String)
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVSearcher.GetShow(System.String)
+Info: BuildAssembler: Building topic T:TheTVDBTools.TVSeries
+Info: ShowMissingComponent: Auto-documenting constructor M:TheTVDBTools.TVSeries.#ctor
+Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for T:TheTVDBTools.TVSeries
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVSeries.#ctor
+Info: ShowMissingComponent: Auto-documenting constructor M:TheTVDBTools.TVSeries.#ctor
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVSeries.CleanName(System.String)
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVSeries.Episodes
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:DataEpisode'.
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:DataEpisode'.
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:DataEpisode'.
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:DataEpisode'.
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVSeries.GetEpisode(System.Int32,System.Int32)
+Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:TheTVDBTools.TVSeries.GetEpisode(System.Int32,System.Int32)
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:DataEpisode'.
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:DataEpisode'.
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:DataEpisode'.
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVSeries.HasEpisodes
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVSeries.IsSearchResult
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVSeries.LoadFromFile(System.String)
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVSeries.LoadFromURL(System.String)
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVSeries.nameMask99x99
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVSeries.nameMaskS99E99
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVSeries.Seasons
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVSeries.SEFileName(System.Int32,System.Int32,System.String)
+Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:TheTVDBTools.TVSeries.SEFileName(System.Int32,System.Int32,System.String)
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVSeries.Series
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:DataSeries'.
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:DataSeries'.
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:DataSeries'.
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:DataSeries'.
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVSeries.Shows
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:DataSeries'.
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:DataSeries'.
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:DataSeries'.
+Warn: ResolveReferenceLinksComponent2: Unknown reference link target 'T:DataSeries'.
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVSeries.SMFileName(System.Int32,System.Int32,System.String)
+Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:TheTVDBTools.TVSeries.SMFileName(System.Int32,System.Int32,System.String)
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVSeries.XFileName(System.Int32,System.Int32,System.String)
+Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:TheTVDBTools.TVSeries.XFileName(System.Int32,System.Int32,System.String)
+Info: BuildAssembler: Building topic T:TheTVDBTools.TVShowFolder
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVShowFolder.#ctor(System.String)
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVShowFolder.AssignedID
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVShowFolder.ErrorMessage
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVShowFolder.HasAssignedID
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVShowFolder.IsValid
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVShowFolder.Location
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVShowFolder.Parse(System.String)
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVShowFolder.ShowName
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVShowFolder.Year
+Info: BuildAssembler: Building topic T:TheTVDBTools.TVShowNameParser
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVShowNameParser.#ctor(System.String)
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVShowNameParser.AmbigiousNaming
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVShowNameParser.Episode
+Info: BuildAssembler: Building topic M:TheTVDBTools.TVShowNameParser.Matched
+Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:TheTVDBTools.TVShowNameParser.Matched
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVShowNameParser.Season
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVShowNameParser.wasSENaming
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVShowNameParser.wasSMNaming
+Info: BuildAssembler: Building topic P:TheTVDBTools.TVShowNameParser.wasXNaming
+Info: Processed 43 topics
+    Last step completed in 00:00:45.0313
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContent">
+Generating intermediate table of content file...
+[C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\GenerateIntermediateTOC.bat]
+XslTransform (v2.4.10520.1)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\CreatePrototypeToc.xsl'.
+
+Clearing any prior web output
+    Last step completed in 00:00:00.7500
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for Help 1.x and/or website...
+[C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\ExtractHtmlInfo.bat]
+Sandcastle Help File Builder HTML Extract, version 1.7.0.0
+Copyright c 2008, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID '1033', code page '65001', encoding charset 'UTF-8'.
+Processed 43 HTML files
+Sorting keywords and generating See Also indices
+Saving Help 1.x keyword index to C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Documentation.hhk
+Saving Help 1.x table of content to C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Documentation.hhc
+Saving website keyword index to C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\WebKI.xml
+Saving website table of content to C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\WebTOC.xml
+    Last step completed in 00:00:01.0625
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContent">
+Generating HTML Help 1.x table of content file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="UpdateTableOfContent">
+Updating table of content with additional content items and determining default topic...
+    Last step completed in 00:00:00.0156
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1.x index file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1.x project file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1.x file...
+[C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Build1xHelpFile.bat]
+Microsoft HTML Help Compiler 4.74.8702
+
+
+
+Compiling c:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\Documentation.chm
+
+
+
+
+
+Compile time: 0 minutes, 0 seconds
+
+45	Topics
+
+414	Local links
+
+263	Internet links
+
+0	Graphics
+
+
+
+
+
+Created c:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\Documentation.chm, 80,041 bytes
+
+Compression decreased file by 287,568 bytes.
+
+    Last step completed in 00:00:01.9219
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContent">
+Generating website table of content file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="UpdateTableOfContent">
+Updating table of content with additional content items and determining default topic...
+    Last step completed in 00:00:00.0156
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:00.2031
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_100.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_100.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_101.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_101.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_102.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_102.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_103.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_103.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_104.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_104.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_105.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_105.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_107.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_107.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_108.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_108.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_109.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_109.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_110.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_110.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_111.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_111.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_112.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_112.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_114.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_114.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_115.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_115.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_116.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_116.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_117.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_117.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_118.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_118.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_119.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_119.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_120.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_120.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_121.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_121.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_97.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_97.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_98.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_98.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_99.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_99.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\fti\FTI_Files.bin -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\fti\FTI_Files.bin
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\03a27ca6-b278-5686-0b12-12e64ffd5ade.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\03a27ca6-b278-5686-0b12-12e64ffd5ade.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\044f6110-8a58-5095-da47-6f492732749a.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\044f6110-8a58-5095-da47-6f492732749a.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\099cd175-7db0-90d7-3c64-9a3c90f86bd3.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\099cd175-7db0-90d7-3c64-9a3c90f86bd3.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\0c2a3266-9319-048f-8076-faa77b5b3027.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\0c2a3266-9319-048f-8076-faa77b5b3027.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\18a152a1-ffaf-9bb7-59ab-fbf7adccb13c.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\18a152a1-ffaf-9bb7-59ab-fbf7adccb13c.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\2062f4b0-c90a-cc85-3245-849974dad279.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\2062f4b0-c90a-cc85-3245-849974dad279.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\2f5ca212-ac89-c8a0-35a5-79b04b6d40cd.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\2f5ca212-ac89-c8a0-35a5-79b04b6d40cd.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\41f56fe3-39d5-024a-8d20-d160729c9c8d.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\41f56fe3-39d5-024a-8d20-d160729c9c8d.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\4509383c-9726-6453-394d-098005e2fddc.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\4509383c-9726-6453-394d-098005e2fddc.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\4ca87941-ee56-7591-488d-f038c36b2ebc.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\4ca87941-ee56-7591-488d-f038c36b2ebc.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\4d8d5cb5-e64f-7105-10d8-d22fe2a38b9d.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\4d8d5cb5-e64f-7105-10d8-d22fe2a38b9d.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\4ef56542-11d4-cfa8-601e-b7c5b5eee187.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\4ef56542-11d4-cfa8-601e-b7c5b5eee187.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\50efd20d-d483-1426-a384-9f28b6374596.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\50efd20d-d483-1426-a384-9f28b6374596.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\6a54a6bf-efa5-23ed-ce2b-9c7ab9aee8ee.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\6a54a6bf-efa5-23ed-ce2b-9c7ab9aee8ee.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\6d4fb0b0-0e1f-9fae-9374-52e220d397a2.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\6d4fb0b0-0e1f-9fae-9374-52e220d397a2.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\70cc5805-029c-f65a-4a6f-a473a6315831.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\70cc5805-029c-f65a-4a6f-a473a6315831.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\713c60de-2e3d-ff35-a8ff-b668ef753a92.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\713c60de-2e3d-ff35-a8ff-b668ef753a92.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\71d7f1e9-8ea1-5bcb-b554-a8675760fd2e.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\71d7f1e9-8ea1-5bcb-b554-a8675760fd2e.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\79dcbcad-3e10-516f-575d-18a9ae73a664.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\79dcbcad-3e10-516f-575d-18a9ae73a664.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\7e38c7ae-9486-1b4f-52da-97f76c1c8f99.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\7e38c7ae-9486-1b4f-52da-97f76c1c8f99.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\81105be9-ca0f-f9c9-a8d3-ca31b96c077d.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\81105be9-ca0f-f9c9-a8d3-ca31b96c077d.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\8dae328c-357f-4f4a-4475-2249b23e6727.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\8dae328c-357f-4f4a-4475-2249b23e6727.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\ae29539c-9d9a-3237-b7ce-2d39ae569ba0.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\ae29539c-9d9a-3237-b7ce-2d39ae569ba0.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\b029449d-20b6-f9e5-2fe4-3ab5771c2703.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\b029449d-20b6-f9e5-2fe4-3ab5771c2703.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\b52819bf-0304-9ce1-dc3f-7d47529d0756.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\b52819bf-0304-9ce1-dc3f-7d47529d0756.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\b5397086-a154-74ed-4406-63a3f8b1b3e3.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\b5397086-a154-74ed-4406-63a3f8b1b3e3.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\bc84f7be-d5e9-f5a3-7fb4-b88b62db4ecf.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\bc84f7be-d5e9-f5a3-7fb4-b88b62db4ecf.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\bcb36b5e-3d39-4200-a69d-b863a7dbef92.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\bcb36b5e-3d39-4200-a69d-b863a7dbef92.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\c2896e83-904d-8c7c-cab0-e092d418e1d8.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\c2896e83-904d-8c7c-cab0-e092d418e1d8.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\c4b8ee18-4736-0c7e-5409-d908b3fc5555.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\c4b8ee18-4736-0c7e-5409-d908b3fc5555.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\cf7bd9af-d5e4-be7e-c574-5ad3e219f282.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\cf7bd9af-d5e4-be7e-c574-5ad3e219f282.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\d39623b8-792f-fb1a-7985-01c5e471cee9.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\d39623b8-792f-fb1a-7985-01c5e471cee9.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\d3ddb174-849e-a82d-d51f-94fbf3093815.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\d3ddb174-849e-a82d-d51f-94fbf3093815.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\d4648875-d41a-783b-d5f4-638df39ee413.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\d4648875-d41a-783b-d5f4-638df39ee413.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\da9e876a-40d7-a1aa-1557-7cbae3ed00f4.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\da9e876a-40d7-a1aa-1557-7cbae3ed00f4.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\e96f7bb0-ccc7-ceea-214d-84f59a431cbd.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\e96f7bb0-ccc7-ceea-214d-84f59a431cbd.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\e9e86488-6db6-fa7d-f1a9-d10b4a9c3549.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\e9e86488-6db6-fa7d-f1a9-d10b4a9c3549.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\ec245d44-90a2-fe43-4921-f3f6e7f86e30.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\ec245d44-90a2-fe43-4921-f3f6e7f86e30.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\f3cc744b-7468-417f-c7f5-907d8be01c62.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\f3cc744b-7468-417f-c7f5-907d8be01c62.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\fb385cfd-e05b-d586-0b4a-d190ab15e6a0.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\fb385cfd-e05b-d586-0b4a-d190ab15e6a0.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\fbc6ee11-f6cb-65c1-a9ec-88a570aeb092.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\fbc6ee11-f6cb-65c1-a9ec-88a570aeb092.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\fd935793-59d4-6854-0c53-75e95fbb717c.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\fd935793-59d4-6854-0c53-75e95fbb717c.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\html\fe6b9fe1-bea1-8850-87d8-9ba6e855a75d.htm -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\html\fe6b9fe1-bea1-8850-87d8-9ba6e855a75d.htm
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\alert_caution.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\alert_caution.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\alert_note.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\alert_note.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\alert_security.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\alert_security.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\Caution.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\Caution.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\CFW.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\CFW.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\collapse_all.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\collapse_all.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\copycode.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\copycode.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\expand_all.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\expand_all.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\LastChild.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\LastChild.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\NotLastChild.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\NotLastChild.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privclass.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\privclass.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privdelegate.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\privdelegate.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privenum.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\privenum.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privevent.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\privevent.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privfield.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\privfield.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privinterface.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\privinterface.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privmethod.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\privmethod.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privproperty.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\privproperty.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\privstructure.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\privstructure.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protclass.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\protclass.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protdelegate.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\protdelegate.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protenum.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\protenum.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protevent.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\protevent.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protfield.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\protfield.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protfield.png -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\protfield.png
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protinterface.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\protinterface.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protmethod.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\protmethod.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protoperator.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\protoperator.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protproperty.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\protproperty.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\protstructure.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\protstructure.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubclass.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\pubclass.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubdelegate.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\pubdelegate.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubenum.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\pubenum.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubevent.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\pubevent.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubfield.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\pubfield.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubinterface.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\pubinterface.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubmethod.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\pubmethod.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\puboperator.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\puboperator.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubproperty.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\pubproperty.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\pubstructure.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\pubstructure.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\security.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\security.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\icons\static.gif -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\icons\static.gif
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\CollapsibleSection.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\scripts\CollapsibleSection.js
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\CookieDataStore.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\scripts\CookieDataStore.js
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\ElementCollection.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\scripts\ElementCollection.js
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\EventUtilities.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\scripts\EventUtilities.js
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\LanguageFilter.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\scripts\LanguageFilter.js
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\MemberFilter.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\scripts\MemberFilter.js
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\script_prototype.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\scripts\script_prototype.js
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\SplitScreen.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\scripts\SplitScreen.js
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\scripts\StyleUtilities.js -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\scripts\StyleUtilities.js
+C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\Working\Output\styles\presentation.css -&gt; C:\repos\svn\src\TheTVDB\src\TheTVDBTools\Help\styles\presentation.css
+    Last step completed in 00:00:01.6563
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.1406
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully.  Total time: 00:00:54.7969
+
+</buildStep>
+</shfbBuild>
