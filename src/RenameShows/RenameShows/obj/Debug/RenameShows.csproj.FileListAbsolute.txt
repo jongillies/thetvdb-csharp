@@ -1,0 +1,11 @@
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\RenameShows\RenameShows\bin\Debug\RenameShows.exe.config
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\RenameShows\RenameShows\bin\Debug\RenameShows.exe
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\RenameShows\RenameShows\bin\Debug\RenameShows.pdb
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\RenameShows\RenameShows\bin\Debug\TheTVDBTools.dll
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\RenameShows\RenameShows\bin\Debug\Tools.dll
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\RenameShows\RenameShows\bin\Debug\Tools.pdb
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\RenameShows\RenameShows\bin\Debug\TheTVDBTools.pdb
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\RenameShows\RenameShows\bin\Debug\TheTVDBTools.xml
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\RenameShows\RenameShows\obj\Debug\RenameShows.csprojResolveAssemblyReference.cache
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\RenameShows\RenameShows\obj\Debug\RenameShows.exe
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\RenameShows\RenameShows\obj\Debug\RenameShows.pdb

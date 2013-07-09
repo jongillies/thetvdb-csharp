@@ -1,0 +1,8 @@
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\datareader\datareader\bin\Debug\datareader.exe
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\datareader\datareader\bin\Debug\datareader.pdb
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\datareader\datareader\bin\Debug\TheTVDBTools.dll
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\datareader\datareader\bin\Debug\TheTVDBTools.pdb
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\datareader\datareader\bin\Debug\TheTVDBTools.xml
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\datareader\datareader\obj\Debug\datareader.csprojResolveAssemblyReference.cache
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\datareader\datareader\obj\Debug\datareader.exe
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\datareader\datareader\obj\Debug\datareader.pdb

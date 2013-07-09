@@ -1,0 +1,11 @@
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\NextShow\NextShow\bin\Debug\NextShow.exe.config
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\NextShow\NextShow\bin\Debug\NextShow.exe
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\NextShow\NextShow\bin\Debug\NextShow.pdb
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\NextShow\NextShow\bin\Debug\TheTVDBTools.dll
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\NextShow\NextShow\bin\Debug\Tools.dll
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\NextShow\NextShow\bin\Debug\Tools.pdb
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\NextShow\NextShow\bin\Debug\TheTVDBTools.pdb
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\NextShow\NextShow\bin\Debug\TheTVDBTools.xml
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\NextShow\NextShow\obj\Debug\NextShow.csprojResolveAssemblyReference.cache
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\NextShow\NextShow\obj\Debug\NextShow.exe
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\NextShow\NextShow\obj\Debug\NextShow.pdb

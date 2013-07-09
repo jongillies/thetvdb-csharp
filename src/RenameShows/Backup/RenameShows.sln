@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenameShows", "RenameShows\RenameShows.csproj", "{A80751A0-DAF3-4D96-9D1C-0B7500CB4FF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheTVDBTools", "..\TheTVDBTools\TheTVDBTools.csproj", "{7BCC09FA-1979-4EC2-8627-2711164B532B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supercoder.Tools", "..\Supercoder.Tools\Supercoder.Tools.csproj", "{08BC16A1-8CAD-4BE6-ACDF-2695D43EDC10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A80751A0-DAF3-4D96-9D1C-0B7500CB4FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A80751A0-DAF3-4D96-9D1C-0B7500CB4FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A80751A0-DAF3-4D96-9D1C-0B7500CB4FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A80751A0-DAF3-4D96-9D1C-0B7500CB4FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BCC09FA-1979-4EC2-8627-2711164B532B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCC09FA-1979-4EC2-8627-2711164B532B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCC09FA-1979-4EC2-8627-2711164B532B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCC09FA-1979-4EC2-8627-2711164B532B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BC16A1-8CAD-4BE6-ACDF-2695D43EDC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BC16A1-8CAD-4BE6-ACDF-2695D43EDC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BC16A1-8CAD-4BE6-ACDF-2695D43EDC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BC16A1-8CAD-4BE6-ACDF-2695D43EDC10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

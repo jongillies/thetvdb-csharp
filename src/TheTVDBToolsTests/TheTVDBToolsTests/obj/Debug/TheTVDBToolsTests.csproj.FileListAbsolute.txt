@@ -1,0 +1,10 @@
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBToolsTests\TheTVDBToolsTests\bin\Debug\TheTVDBToolsTests.dll
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBToolsTests\TheTVDBToolsTests\bin\Debug\TheTVDBToolsTests.pdb
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBToolsTests\TheTVDBToolsTests\bin\Debug\nunit.core.dll
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBToolsTests\TheTVDBToolsTests\bin\Debug\nunit.framework.dll
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBToolsTests\TheTVDBToolsTests\bin\Debug\TheTVDBTools.dll
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBToolsTests\TheTVDBToolsTests\bin\Debug\TheTVDBTools.pdb
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBToolsTests\TheTVDBToolsTests\bin\Debug\TheTVDBTools.xml
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBToolsTests\TheTVDBToolsTests\obj\Debug\TheTVDBToolsTests.csprojResolveAssemblyReference.cache
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBToolsTests\TheTVDBToolsTests\obj\Debug\TheTVDBToolsTests.dll
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBToolsTests\TheTVDBToolsTests\obj\Debug\TheTVDBToolsTests.pdb

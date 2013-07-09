@@ -1,0 +1,6 @@
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBTools\bin\Debug\TheTVDBTools.XML
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBTools\bin\Debug\TheTVDBTools.dll
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBTools\bin\Debug\TheTVDBTools.pdb
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBTools\obj\Debug\TheTVDBTools.csprojResolveAssemblyReference.cache
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBTools\obj\Debug\TheTVDBTools.dll
+C:\Users\Jon\repos\github\jongillies\thetvdb-csharp\src\TheTVDBTools\obj\Debug\TheTVDBTools.pdb
