@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextShow", "NextShow\NextShow.csproj", "{D62CFDF1-1F19-4110-9176-93D7B5860E7D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supercoder.Tools", "..\Supercoder.Tools\Supercoder.Tools.csproj", "{08BC16A1-8CAD-4BE6-ACDF-2695D43EDC10}"
